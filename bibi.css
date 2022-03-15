@@ -7,6 +7,8 @@ body, html {
     /* font-family: ;*/
 }
 
+body * {box-sizing: border-box}
+
 /*.conteiner {
     padding-left: 180px;
     padding-right: 30px ;
@@ -22,7 +24,7 @@ body, html {
     float: right;
 }*/
 .main {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
 }
 
@@ -63,3 +65,124 @@ body, html {
     align-self: flex-start;
     margin-top: 33px;
 }
+.content{
+    padding: 120px 140px 160px;
+    line-height: 50px;
+    font-size: 28px;
+    font-weight: 300;
+    max-width: 960px;
+    margin: 0 auto;
+}
+.content p{
+    margin: 0;
+}
+.content a{
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 23px;
+}
+.hotel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 200px;
+    padding-top: 200px;
+}
+.hotel__mirror{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding-bottom: 200px;
+    padding-top: 200px;
+}
+
+.hotel img{
+    width: 580px;
+    height: 395px;
+    object-fit: cover;
+}
+.hotel a{
+    margin-top: 60px;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 23px;
+}
+
+.hotel h1{
+    line-height: 50px;
+    font-size: 28px;
+    font-weight: 300;
+    margin: 0;
+}
+.hotel__description{
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.back{
+    background-color: #999999;
+    width: 100%;
+    object-fit: cover;
+}
+.hotel__mirror img{
+    width: 580px;
+    height: 395px;
+    object-fit: cover;
+}
+.hotel__mirror a{
+    margin-top: 60px;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 23px;
+}
+
+.hotel__mirror h1{
+    line-height: 50px;
+    font-size: 28px;
+    font-weight: 300;
+    margin: 0;
+}
+.hotel__mirror__description{
+    padding-right: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact{
+    padding-top: 370px;
+    padding-bottom: 170px;
+    width: 55%;
+    margin: 0 auto;
+}
+.contact h1{
+    line-height: 1;
+    font-size: 28px;
+    font-weight: 300;
+    margin: 0;
+}
+.contact a{
+    margin-top: 60px;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 1;
+    display: block;
+}
+.contentForm{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 18px;
+}
+.contact__link{
+    padding: 0;
+}
+.contact img {
+    width: 70px;
+    height: 25px;
+}
+.contact__question {
+    margin-bottom: 130px;
+}
+
