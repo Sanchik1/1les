@@ -1,0 +1,44 @@
+.contact{
+    padding-top: 367px;
+    padding-bottom: 200px;
+    width: 60%;
+    margin: 0 auto;
+}
+.contact h1{
+    line-height: 1;
+    font-size: 34px;
+    font-weight: 300;
+    margin: 0;
+}
+.contact a{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 100;
+    line-height: 1;
+    display: block;
+}
+.contact__question {
+    margin-bottom: 130px;
+}
+.contentForm{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-start;
+    font-size: 25px;
+}
+a.contact__link {
+    padding-bottom: 10px;
+    font-size: 25px;
+    margin: 0;
+    color: black;
+}
+.contentForm p{
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.contact img {
+    width: 70px;
+    height: 25px;
+}

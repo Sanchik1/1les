@@ -1,31 +1,14 @@
 
 body, html {
-    font-family: 'GT Walsheim Pro';
+    font-family: 'GT Walsheim Pro', serif;
+    font-weight: 300;
     margin: 0;
     padding: 0;
-
-    /* font-family: ;*/
 }
 
-body * {box-sizing: border-box}
-
-/*.conteiner {
-    padding-left: 180px;
-    padding-right: 30px ;
-    margin: auto;
-}
-.head a {
-    font-size:18px;
-    text-decoration-line: none ;
-    color: #E6E3E1;
-    padding-left: 20px;
-}
-#lang {
-    float: right;
-}*/
 .main {
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 
 .main__img {
@@ -34,46 +17,16 @@ body * {box-sizing: border-box}
     object-fit: cover;
 }
 
-.main__head {
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 115px;
-    align-items: center;
-    margin-left: 50px;
-    margin-right: 50px;
-}
 
-.main__link {
-    padding: 0 15px;
-    color: red;
-    font-weight: 500;
-    text-decoration-line: none;
-    font-size: 18px;
-    transition: 0.3s;
-}
-.main__link:hover {
-    opacity: 0.5;
-}
-.main__emptyLink {
-    flex: 1;
-}
-.main__logo {
-    align-self: flex-start;
-    margin-top: 33px;
-}
 .content{
     padding: 120px 140px 160px;
-    line-height: 50px;
-    font-size: 28px;
-    font-weight: 300;
+
     max-width: 960px;
     margin: 0 auto;
 }
 .content p{
+    line-height: 50px;
+    font-size: 40px;
     margin: 0;
 }
 .content a{
@@ -122,7 +75,7 @@ body * {box-sizing: border-box}
     justify-content: center;
 }
 .back{
-    background-color: #999999;
+    background-color: #e9e9e9;
     width: 100%;
     object-fit: cover;
 }
@@ -150,39 +103,5 @@ body * {box-sizing: border-box}
     flex-direction: column;
     justify-content: center;
 }
-.contact{
-    padding-top: 370px;
-    padding-bottom: 170px;
-    width: 55%;
-    margin: 0 auto;
-}
-.contact h1{
-    line-height: 1;
-    font-size: 28px;
-    font-weight: 300;
-    margin: 0;
-}
-.contact a{
-    margin-top: 60px;
-    font-size: 18px;
-    font-weight: 100;
-    line-height: 1;
-    display: block;
-}
-.contentForm{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-size: 18px;
-}
-.contact__link{
-    padding: 0;
-}
-.contact img {
-    width: 70px;
-    height: 25px;
-}
-.contact__question {
-    margin-bottom: 130px;
-}
+
 
